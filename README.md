@@ -20,9 +20,9 @@ Verify your executable's SHA-256 hash in PowerShell before running:
 Get-FileHash ".\404 SoundBoard.exe" -Algorithm SHA256
 ```
 
-**Latest Official SHA-256 (`v1.0.0`):**
+**Latest Official SHA-256 (`v1.0.1`):**
 ```text
-eb327df71d49324b18349af762f34409f494b901562fed1d40af67205bc66a22
+3cb0a46dd228c391f42c16a04f2bee375631958804423d39776186e6a55f446d
 ```
 
 ## Remote Control (`config.json`)
@@ -30,6 +30,7 @@ Maintainers can remotely control:
 - `latest_version` / `min_supported_version` / `force_update` — Trigger optional or mandatory updates
 - `download_url` & `latest_sha256` — Pinned strictly to `github.com/ftubenet/404soundboard/releases/download/...` and SHA-256 verified before swap
 - `marquee_text` — Live-update the top announcement ticker without releasing a new `.exe`
+- `contacts` — Live-update Facebook, Telegram, Viber, and KPay details without rebuilding `.exe`
 - `kill_switch` & `maintenance_msg` — Remotely disable compromised or deprecated builds
 - `strict_integrity` & `official_hashes` — Enforce SHA-256 verification against all approved official release binaries
 
