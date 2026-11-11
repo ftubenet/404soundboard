@@ -1,0 +1,15 @@
+{
+  "latest_version": "1.0.0",
+  "min_supported_version": "1.0.0",
+  "force_update": false,
+  "download_url": "https://github.com/ftubenet/404soundboard/releases/download/v1.0.0/404.SoundBoard.exe",
+  "latest_sha256": "eb327df71d49324b18349af762f34409f494b901562fed1d40af67205bc66a22",
+  "changelog": "Initial Official Release (v1.0.0) — Minimalist UI, Grid/List View, Infinite Scroll, Favorites, Play Animations, Remote Config & SHA-256 Integrity Verification.",
+  "marquee_text": "ထပ်မံ ထည့်သွင်းလိုသော function များကို အကြံပေးနိုင်ပါသည်   •   အသုံးပြုရအဆင်ပြေပါက (ကော်ဖီဝယ်တိုက်နိုင်ပါသည် ☕) — အသေးစိတ်ကြည့်ရန် နှိပ်ပါ",
+  "kill_switch": false,
+  "maintenance_msg": "",
+  "strict_integrity": true,
+  "official_hashes": [
+    "eb327df71d49324b18349af762f34409f494b901562fed1d40af67205bc66a22"
+  ]
+}
